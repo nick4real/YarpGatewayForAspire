@@ -1,0 +1,26 @@
+@Yarp.Gateway_HostAddress = http://localhost:8001
+
+GET {{Yarp.Gateway_HostAddress}}/health/
+Accept: application/json
+
+###
+
+GET {{Yarp.Gateway_HostAddress}}/user-api/health
+Accept: application/json
+
+###
+
+GET {{Yarp.Gateway_HostAddress}}/user-api/users
+Accept: application/json
+
+###
+
+GET {{Yarp.Gateway_HostAddress}}/product-api/health
+Accept: application/json
+
+###
+
+GET {{Yarp.Gateway_HostAddress}}/product-api/products
+Accept: application/json
+
+###
